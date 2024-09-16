@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="form-container">
+    <input type="text" id="numberInput" value="200AZN" class="input-field" readonly> 
+    <input type="text" id="storeInput" value="Mağaza" class="input-field">
+    
+    <input type="radio" id="input" name="direction" value="mədaxil">
+    <label for="input">mədaxil</label>
+    <input type="radio" id="output" name="direction" value="məxaric">
+    <label for="output">məxaric</label>
+
+    <button type="button" class="addbtn" onclick="updateBalance()">ADD</button>
+    <!-- <select>
+        <option>All</option>
+        <option>Məxaric</option>
+        <option>Mədaxil</option>
+    </select> -->
+    <div id="resultContainer"></div> 
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
